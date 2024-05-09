@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <app_shell_type/>
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "553e398f150099fe18ece6938b5bea46",
+            "type": "MACROPONENT"
+        },
+        "elementId": "alert_1",
+        "elementLabel": "Alert 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "action": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "label": "Custom ok",
+                    "type": "acknowledge"
+                }
+            },
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "content": {
+                "type": "JSON_LITERAL",
+                "value": "This needs your attention"
+            },
+            "enableFocus": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "expanded": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "header": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Heads up"
+                }
+            },
+            "icon": {
+                "type": "JSON_LITERAL",
+                "value": "circle-info-outline"
+            },
+            "manageExpanded": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "maxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "status": {
+                "type": "JSON_LITERAL",
+                "value": "info"
+            },
+            "textLinkProps": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "href": "dummyHref",
+                    "label": "Link label"
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "alert_1"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ {
+  "message" : "Custom ok",
+  "comment" : ""
+}, {
+  "message" : "Heads up",
+  "comment" : ""
+}, {
+  "message" : "Link label",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 17:29:58</sys_created_on>
+        <sys_id>07f1637994c20210f87788643441386b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Custom App" source="x_snc_custom_app">6a81273994c20210f877886434413823</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">6a81273994c20210f877886434413823</sys_scope>
+        <sys_update_name>sys_ux_macroponent_07f1637994c20210f87788643441386b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 17:30:27</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=07f1637994c20210f87788643441386b"/>
+</record_update>
